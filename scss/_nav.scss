@@ -1,0 +1,59 @@
+@import '_variable.scss';
+@import '_fonts.scss';
+
+
+
+
+nav{
+    ul{
+        li{
+            padding-left: 20px !important;
+           
+            position: relative;
+            &::after{
+                 @include trans(0.4s);
+                content: '';
+                width:0px;
+                height: 1px;
+                background: $brandcol;
+                position: absolute;
+                bottom: 25px;
+                left: 20;
+            }
+            padding: 0px 18px;
+            a{
+                line-height: 110px;
+                @include rel_med;
+                font-size: 16px;
+                &:hover{
+                    color: $brandcol !important;
+                }
+            }
+            &::before{
+                @include trans(0.4s);
+                content: '';
+                width: 0px;
+                height: 1px;
+                background: $brandcol;
+                position: absolute;
+                bottom: 30px;
+                left: 20;
+            }
+            &:hover{
+                &::after{
+                    width: 30px;
+                }
+                &::before{
+                    width: 60px;
+                }
+            }
+        }
+    }
+    .cta_btn{
+        color: $brandcol;
+        text-transform: capitalize;
+    }
+    .navbar-brand{
+        margin: 20px 0px;
+    }
+}

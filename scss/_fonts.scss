@@ -1,0 +1,30 @@
+@import '_variable.scss';
+
+@mixin open_reg {
+    font-family: $font-family2;
+    font-weight: 400;
+}
+@mixin open_med {
+    font-family: $font-family2;
+    font-weight: 500;
+}
+@mixin open_bold {
+    font-family: $font-family2;
+    font-weight: 700;
+}
+@mixin rel_reg {
+    font-family: $font-family1;
+    font-weight: 400;
+
+}
+@mixin rel_med {
+    font-family: $font-family1;
+    font-weight: 500;
+
+}
+@mixin rel_bold {
+    font-family: $font-family1;
+    font-weight: 700;
+
+}
+// font femily 

@@ -1,0 +1,32 @@
+@import '_variable.scss';
+@import '_fonts.scss';
+
+
+
+
+#service{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: $lightbg;
+    .shipping{
+        @include trans(0.4s);
+        padding:20px;
+        i{
+            font-size: 30px;
+        }
+        h4{
+            display: inline-block;
+        }
+        &:hover{
+            background: rgba(0, 0, 0, 0.336);
+            p{
+                @include trans(0.4s);
+                color: $light;
+            }
+            i,h4{
+                @include trans(0.4s);
+                color: $brandcol;
+            }
+        }
+    }
+}

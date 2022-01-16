@@ -1,0 +1,96 @@
+@import '_variable.scss';
+@import '_fonts.scss';
+
+
+
+#hero{
+    .hero-slider{
+        position: relative;
+        .arrow_left{
+                width: 40px;
+                height: 40px;
+                line-height: 40px;
+                text-align: center;
+                border:1px solid $light;
+                position: absolute;
+                bottom:13%;
+                left: 46%;
+                z-index: 2; 
+                color: $light;
+                @include trans(0.4s);
+            &:hover{
+                background: $brandcol;
+                color: $light;
+                border: 1px solid $brandcol;
+            }
+                
+        }
+        .arrow_right{
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            border:1px solid $light;
+            position: absolute;
+            bottom:13%;
+            right: 46%;
+            z-index: 2; 
+            color: $light;
+            @include trans(0.4s);
+            &:hover{
+                background: $brandcol;
+                border: 1px solid $brandcol;
+            }
+    }
+    }
+    .hero1{
+        padding-top: 150px;
+        padding-bottom: 150px;
+        background: url(../images/banner.png) no-repeat center / cover;
+    }
+    .hero2{
+        padding-top: 150px;
+        padding-bottom: 150px;
+        background: url(../images/banner2.jpg) no-repeat center / cover;
+    }
+    .hero3{
+        padding-top: 150px;
+        padding-bottom: 150px;
+        background: url(../images/banner3.jpg) no-repeat center / cover;
+    }
+    .heros{
+
+        .hero-text{
+            h3{
+                @include rel_bold;
+                font-size: 70px;
+                color: $brandcol;
+                padding-bottom: 10px
+            }
+            h2{
+                @include rel_med;
+                font-size: 30px;
+                padding-bottom: 30px
+            }
+            p{
+                @include open_reg;
+                font-size: 14px;
+                padding-right: 22px;
+            }
+            a{  @include trans(00.4s);
+                @include borr(3px);
+                border: 1px solid #fff;
+                color: $light;
+                &:hover{
+                    background: $brandcol;
+                    border: 1px solid $brandcol;
+                }
+                &:first-of-type{
+                    margin-right: 30px;
+                }
+            }
+            
+        }
+
+    }
+}

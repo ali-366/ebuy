@@ -1,0 +1,62 @@
+@import "_variable.scss";
+@import "_fonts.scss";
+
+// Import variable ends
+
+
+/* ================================
+        header section starts
+ ================================ */
+
+header{
+    background: $hbg;
+    ul{
+        li{
+            border-right: 1px solid $light;
+            padding: 0px 16px !important;
+            a{
+                color: $light !important;
+                line-height: 50px;
+                @include open_reg();
+                font-size: 13px;
+                i{
+                    margin-right: 4px;
+                }
+            }
+        }
+    }
+    .header_left{
+        ul{
+            li{
+                &:first-child{
+                    padding-left: 0 !important;
+                }
+                &:last-child{
+                    border: 0;
+                }
+            }
+        }
+    }
+    .header_left{
+        ul{
+            li{
+                &:first-child{
+                    padding-left: 0 !important;
+                }
+            }
+        }
+    }
+    .header_right{
+        ul{
+            li{
+                &:last-child{
+                    border: 0;
+                    padding-left: 0 !important;
+                }
+            }
+        }
+    }
+}
+/* ================================
+        header section starts
+ ================================ */

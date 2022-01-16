@@ -1,0 +1,93 @@
+
+@import '_variable.scss';
+@import '_fonts.scss';
+
+
+
+#featured{
+    padding-bottom: 40px;
+    .headline{
+        h2{
+            &::after,
+            &::before{
+                left: 38%
+            }
+        }
+    }
+    .fillter_menu{
+        width: 50%;
+        margin: 0 auto;
+        ul{
+            li{
+               
+                padding: 0px 20px;
+               border-right: 1px solid $dark ;
+               &:hover{
+                   a{
+                        @include trans(0.4s);
+                       color: $brandcol !important;
+                   }
+               }
+               &:last-of-type{
+                   border:0;
+               }
+            }
+        }
+    }
+    
+        .featured_item{
+                position: relative;
+            .f_overlay{
+                background: $over70;
+                width: 0%;
+                height: 87%;
+                position: absolute;
+                top: 0;
+                right: 0;
+                flex-direction: column;
+                align-items: center;
+                visibility: hidden;
+                opacity: 0;
+            a{
+                color: $light;
+                @include trans(0.4s);
+                i{
+                   
+                    width: 50px;
+                    height: 50px;
+                    font-size: 30px;
+                    border: 1px solid $light;
+                    border-radius:50% ;
+                    -webkit-border-radius:50% ;
+                    -moz-border-radius:50% ;
+                    -ms-border-radius:50% ;
+                    -o-border-radius:50% ;
+                    line-height: 50px;
+                    text-align: center;
+                    &:hover{
+                         @include trans(0.4s);
+                        color: $brandcol !important;
+                        border-color: $brandcol;
+                    }
+                }
+            }
+        }
+        &:hover{
+            .f_overlay{
+                @include trans(0.4s);
+                visibility: visible;
+                width: 50%;
+                opacity: 1;
+            }
+        }
+        h6{
+            margin-top: 10px;
+            span{
+                margin-right:  100px;
+            }
+        }
+        .icon{
+            color: $brandcol !important;
+        }
+    }
+}

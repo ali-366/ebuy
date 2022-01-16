@@ -1,0 +1,90 @@
+
+@import '_variable.scss';
+@import '_fonts.scss';
+
+
+
+#blogs{
+    margin-bottom: 40px;
+    .headline h2::before,
+    .headline h2::after{
+        left: 44%;
+    }
+    .blog{
+        position: relative;
+        &:hover{
+            .overlay{
+                @include trans(0.4s);
+                visibility: visible;
+                opacity: 1;
+                width: 100%;
+                height: 290px;
+            }
+        }
+        .overlay{
+            width: 10%;
+            height:90px;
+            padding: 10px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: $over70;
+            visibility: hidden;
+            opacity: 0;
+            .top_item{
+                    p{
+                        margin: 0px 10px;
+                    }
+            }
+            .midle_item{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+                a{
+                    margin: 95px 0px;
+                    color: $light;
+                    
+                    &:hover{
+                        i{
+                            @include trans(0.4s);
+                            background: $brandcol;
+                            border-color: $brandcol;
+                            color: $light;
+                        }
+                    }
+                    i{
+                        width: 40px;
+                        height: 40px;
+                        border: 1px solid $light;
+                        border-radius: 50%;
+                        -webkit-border-radius: 50%;
+                        -moz-border-radius: 50%;
+                        -ms-border-radius: 50%;
+                        -o-border-radius: 50%;
+                        line-height: 40px;
+                        text-align: center;
+                    }
+                }
+            }
+            .bottom_item{
+                p{
+                    padding-right: 8px;
+                }
+                i{
+                    padding: 3px;
+                }
+            }
+            
+        }
+        h4{
+            padding: 20px 0px;
+        }
+        a{
+            @include trans(0.4s);
+            &:hover{
+                color: $brandcol !important;
+            }
+        }
+    }
+}

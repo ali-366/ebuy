@@ -1,0 +1,134 @@
+@import '_variable.scss';
+@import '_fonts.scss';
+
+
+
+
+footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #353535;
+    img{
+        margin-bottom: 20px;
+    }
+    .footer_item{
+        h3{
+            line-height: 30px;
+            font-size: 20px;
+        }
+        ul{
+            li{
+                font-size: 14px;
+                i{
+                    width: 40px;
+                    height: 40px;
+                }
+                p{
+                    display: inline-block;
+                }
+                a{
+                    @include trans(0.4s);
+                    color: $light;
+                    &:hover{
+                        color: $brandcol !important ;
+                    }
+                }
+            }
+        }
+        input{
+            width: 70%;
+            height: 40px;
+            border: 1px solid $light;
+            background: transparent;
+            display: inline-block;
+            margin: 0;
+            border-right: none;
+        }
+        button{
+            color: $light;
+            background: #222;
+            border: 1px solid $light;
+            margin-top: -5px;
+            margin-left: -4px;
+            height: 40px;
+            border-radius: 0px;
+            -webkit-border-radius: 0px;
+            -moz-border-radius: 0px;
+            -ms-border-radius: 0px;
+            -o-border-radius: 0px;
+            border-left: none;
+            @include trans(00.4s);
+            &:hover{
+                background: $brandcol;
+                color: $light;
+                border: 1px solid $brandcol;
+            }
+        }
+        .icon{
+            a{
+                margin-right: 20px;
+                color: $dark;
+                    i{
+                        background: $light;
+                    width: 50px;
+                    height: 50px;
+                    border: 1px solid $light;
+                    border-radius: 50%;
+                    -webkit-border-radius: 50%;
+                    -moz-border-radius: 50%;
+                    -ms-border-radius: 50%;
+                    -o-border-radius: 50%;
+                    text-align: center;
+                    line-height: 50px;
+                    
+                    @include trans(0.4s);
+                    
+                    &:hover{
+                        color: $light;
+                        background: $brandcol;
+                        border: 1px solid $brandcol;
+                        transform: scale(1);
+                        -webkit-transform: scale(1);
+                        -moz-transform: scale(1);
+                        -ms-transform: scale(1);
+                        -o-transform: scale(1);
+                    }
+                    transform: scale(0.9);
+                    -webkit-transform: scale(0.9);
+                    -moz-transform: scale(0.9);
+                    -ms-transform: scale(0.9);
+                    -o-transform: scale(0.9);
+                    &:last-of-type{
+                        margin-right: 0px;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+#copyright{ 
+    background: #636262;padding-top: 20px;
+    .copy{
+       
+        p{
+            color: $light;
+            padding: 10px 0px;
+            a{
+                color: $brandcol;
+                @include trans(0.4s);
+                &:hover{
+                    color: $light;
+                }
+            }
+        }
+       
+    }
+    .card{
+        a{
+            img{
+               
+             }
+        }
+    }
+}

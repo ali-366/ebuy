@@ -1,0 +1,32 @@
+@import '_variable.scss';
+@import '_fonts.scss';
+
+
+.headline{
+    
+    h2{
+        margin: 0 auto;
+        padding: 40px 0px;
+        position: relative;
+        &::after{
+            @includetrans(0.4s):;
+            content: '';
+            width:170px;
+            height: 1px;
+            background: $brandcol;
+            position: absolute;
+            bottom: 25px;
+            left: 50%;
+}
+        &::before{
+            @includetrans(0.4s):;
+            content: '';
+            width: 80px;
+            height: 1px;
+            background: $brandcol;
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+        }
+    }
+}

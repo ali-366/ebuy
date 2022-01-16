@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+/*
+  common css ends
+*/ 
+@import '_header.scss';
+@import '_nav.scss';
+@import '_banner.scss';
+@import '_service.scss';
+@import '_catagories.scss';
+@import '_sechead.scss';
+@import '_featured.scss';
+@import '_new product.scss';
+@import '_letestpro.scss';
+@import '_tes_monials.scss';
+@import '_blog.scss';
+@import '_footer.scss';

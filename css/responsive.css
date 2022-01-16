@@ -1,0 +1,259 @@
+/* Exx-small divice  */
+
+
+@media (min-width:320px) and (max-width:455px) {
+  
+    header .header_left{
+        border-bottom: 1px solid #f1f1f1;
+    }
+    header .header_right ul li,
+    header .header_left ul li{
+       padding: 5px !important;
+    }
+    #hero .hero-slider .arrow_right{ 
+        right: 108px !important;
+    }
+    #hero .hero-slider .arrow_left{ 
+        left: 108px !important;
+    }
+    nav ul li{
+        padding-left: 10px;
+    }
+    nav ul li a {
+        line-height: 40px;
+        padding-left: 10px !important;
+    }
+    nav ul li a:hover{
+        background: #f7cfcf;
+    }
+    nav ul li::before {
+        bottom: 10px;
+    }
+    nav ul li::after{
+        bottom: 5px;
+    }
+    #catagories .jeans {
+        margin-bottom: 20px;
+    }
+    #catagories .headline h2::after, 
+    #catagories .headline h2::before {
+        left: 31%;
+    }
+    .headline h2 {
+        padding: 10px 0px;
+    }
+    .headline h2::before{
+        bottom: 3px;
+    }
+    .headline h2::after{
+        bottom: 0px;
+    }
+    #featured .headline h2::after, 
+    #featured .headline h2::before{
+        left: 50px;
+    }
+    #featured .fillter_menu ul{
+        justify-content: center;
+    }
+    #featured .fillter_menu ul li {
+        padding: 0px 6px;
+        border-right: 1px solid #222222;
+    }
+    #featured .featured_item {
+        margin-bottom: 15px;
+    }
+    #micro {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    #micro .product_right h4 {
+        font-size: 25px;
+        margin: 12px 0px;
+        text-align: center;
+    }
+    #micro .product_right h3 {
+        font-size: 34px;
+        text-align: center;
+    }
+    #micro .product_right #countdown .wrapper {
+        padding: 0px;
+        width:65px !important;
+    
+    }
+    #micro .product_right #countdown .wrapper .time {
+        font-size: 30px;
+    }
+    #letestpro .headline h2::after, 
+    #letestpro .headline h2::before {
+        left: 23%;
+    }
+    #letestpro .arrow_left{
+        left:50px;
+    }
+    #letestpro .arrow_right{
+        right: 50px;
+    }
+    #tes_monial .headline h2::after, 
+    #tes_monial .headline h2::before {
+        left: 31%;
+    }
+    #tes_monial .arrow_left{
+        left: 70px;
+    }
+    #tes_monial .arrow_right{
+        right: 70px;
+    }
+    footer .footer_item .icon a {
+        margin-right: 6px;
+    }
+
+}
+/* Ex-small divice  */
+
+
+@media (min-width:456px) and (max-width:575px) {
+    header .header_left{
+        border-bottom: 1px solid #f1f1f1;
+    }
+    #catagories .headline h2::after, #catagories .headline h2::before {
+        left: 39%;
+    }
+    header .header_right ul li,
+    header .header_left ul li{
+       padding: 5px !important;
+    }
+    #hero .hero-slider .arrow_right{ 
+        right: 108px !important;
+    }
+    #hero .hero-slider .arrow_left{ 
+        left: 108px !important;
+    }
+    nav ul li{
+        padding-left: 10px;
+    }
+    nav ul li a {
+        line-height: 40px;
+        padding-left: 10px !important;
+    }
+    nav ul li a:hover{
+        background: #f7cfcf;
+    }
+    nav ul li::before {
+        bottom: 10px;
+    }
+    nav ul li::after{
+        bottom: 5px;
+    }
+    #catagories .jeans {
+        margin-bottom: 20px;
+    }
+    .headline h2 {
+        padding: 10px 0px;
+    }
+    .headline h2::before{
+        bottom: 3px;
+    }
+    .headline h2::after{
+        bottom: 0px;
+    }
+    #featured .headline h2::after, 
+    #featured .headline h2::before{
+        left: 167px;
+    }
+    #featured .fillter_menu ul{
+        justify-content: center;
+    }
+    #featured .fillter_menu ul li {
+        padding: 0px 6px;
+        border-right: 1px solid #222222;
+    }
+    #featured .featured_item {
+        margin-bottom: 15px;
+    }
+    #micro {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    #micro .product_right h4 {
+        font-size: 25px;
+        margin: 12px 0px;
+        text-align: center;
+    }
+    #micro .product_right h3 {
+        font-size: 34px;
+        text-align: center;
+    }
+    #micro .product_right #countdown .wrapper {
+        padding: 0px;
+        width:65px !important;
+    
+    }
+    #micro .product_right #countdown .wrapper .time {
+        font-size: 30px;
+    }
+    #letestpro .headline h2::after, 
+    #letestpro .headline h2::before {
+        left: 34%;
+    }
+    #letestpro .arrow_left{
+        left:50px;
+    }
+    #letestpro .arrow_right{
+        right: 50px;
+    }
+    #tes_monial .headline h2::after, 
+    #tes_monial .headline h2::before {
+        left: 31%;
+    }
+    #tes_monial .arrow_left{
+        left: 70px;
+    }
+    #tes_monial .arrow_right{
+        right: 70px;
+    }
+    footer .footer_item .icon a {
+        margin-right: 6px;
+    }
+    #blogs .headline h2::before,
+    #blogs .headline h2::after {
+        left: 40%;
+    }
+    #blogs .blog .overlay {
+        height: 447px;   
+    }
+    #blogs .blog .overlay:hover {
+        height: 447px;   
+    }
+    #blogs .blog .overlay .midle_item a {
+        margin: 170px 0px;
+      }
+}
+/* small divice  */
+
+
+@media (min-width:576px) and (max-width:767px) {
+    header .header_left,
+    header .header_right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header .header_left{
+        border-bottom: 1px solid #f1f1f1;
+    }
+    #hero .hero-slider .arrow_right{ 
+        right: 120px !important;
+    }
+    #hero .hero-slider .arrow_left{ 
+        left: 120px !important;
+        }
+}
+@media (min-width:767px) and (max-width:991px) {
+   
+    #hero .hero-slider .arrow_right{ 
+        right: 120px !important;
+    }
+    #hero .hero-slider .arrow_left{ 
+        left: 120px !important;
+        }
+}

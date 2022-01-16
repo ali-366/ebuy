@@ -1,0 +1,55 @@
+@import '_variable.scss';
+@import '_fonts.scss';
+
+
+
+#catagories{
+    .headline{
+        h2{
+            &::after,
+            &::before{
+                left: 43%
+            }
+        }
+    }
+    .jeans{
+        @include trans(0.4s);
+        &:hover{          
+            h5{
+                visibility: visible;
+                opacity: 1;
+                color: $brandcol;
+            }
+            .overlay{
+                a{
+                    background: $brandcol;
+                    border: 1px solid $brandcol;
+                }
+            }
+        }
+        position: relative;
+        h5{
+            background: #fff;
+            padding: 3px 76px;
+            position: absolute;
+            top:45px;
+            left:-38px;
+            opacity: 0;
+            visibility: hidden;
+            transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+            -moz-transform: rotate(-45deg);
+            -ms-transform: rotate(-45deg);
+            -o-transform: rotate(-45deg);
+        }
+        .overlay{
+            background:$over70 ;
+            width: 90%;
+            height: 40%;
+            position: absolute;
+            left: 18px;
+            bottom: 18px;
+            
+        }
+    }
+}

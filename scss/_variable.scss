@@ -1,0 +1,40 @@
+
+// font famly variable
+$font-family1:'Raleway', sans-serif;
+$font-family2: 'Open Sans', sans-serif;
+
+
+
+// color variable
+$brandcol:#de4644;
+$dark:#222222;
+$light:#ddd;
+
+
+// bg-color variable
+    $hbg:#444;
+    $lightbg:#f1f1f1;
+
+
+
+// overlay color variable
+$over60:rgba(0, 0, 0, 0.6);
+$over70:rgba(0, 0, 0, 0.7);
+$over80:rgba(0, 0, 0, 0.8);
+$over90:rgba(0, 0, 0, 0.9);
+
+
+@mixin trans($time) {
+    transition: all linear  $time;
+    -webkit-transition: all linear  $time;
+    -moz-transition: all linear  $time;
+    -ms-transition: all linear  $time;
+    -o-transition: all linear  $time;
+}
+@mixin borr($pixels) {
+    transition: all linear  $pixels;
+    -webkit-transition: all linear  $pixels;
+    -moz-transition: all linear  $pixels;
+    -ms-transition: all linear  $pixels;
+    -o-transition: all linear  $pixels;
+}
