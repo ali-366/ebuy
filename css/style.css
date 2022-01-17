@@ -16,6 +16,11 @@ img {
   vertical-align: middle;
 }
 
+.cta_active {
+  color: #de4644 !important;
+  border-color: #de4644;
+}
+
 /*
   common css ends
 */
@@ -36,8 +41,13 @@ header ul li a {
   font-weight: 400;
   font-size: 13px;
 }
-header ul li a i {
+header ul li a .fone {
   margin-right: 4px;
+  transform: rotate(115deg);
+  -webkit-transform: rotate(115deg);
+  -moz-transform: rotate(115deg);
+  -ms-transform: rotate(115deg);
+  -o-transform: rotate(115deg);
 }
 header .header_left ul li:first-child {
   padding-left: 0 !important;
@@ -336,13 +346,14 @@ nav .navbar-brand {
   padding: 0px 20px;
   border-right: 1px solid #222222;
 }
-#featured .fillter_menu ul li:hover a {
+#featured .fillter_menu ul li:hover {
   transition: all linear 0.4s;
   -webkit-transition: all linear 0.4s;
   -moz-transition: all linear 0.4s;
   -ms-transition: all linear 0.4s;
   -o-transition: all linear 0.4s;
   color: #de4644 !important;
+  border-color: #de4644;
 }
 #featured .fillter_menu ul li:last-of-type {
   border: 0;
@@ -412,17 +423,20 @@ nav .navbar-brand {
   color: #de4644 !important;
 }
 
-#micro {
+#new_product {
   padding-top: 100px;
   padding-bottom: 100px;
   background: #f1f1f1;
 }
-#micro .product_right #countdown {
+#new_product .product_right {
+  padding: 10px;
+}
+#new_product .product_right #countdown {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
-#micro .product_right #countdown .wrapper {
+#new_product .product_right #countdown .wrapper {
   display: flex;
   padding: 10px;
   justify-content: center;
@@ -431,19 +445,19 @@ nav .navbar-brand {
   border: 1px solid #de4644;
   width: 100px;
 }
-#micro .product_right #countdown .wrapper .time {
+#new_product .product_right #countdown .wrapper .time {
   font-size: 50px;
   text-align: center;
 }
-#micro .product_right #countdown .wrapper .label {
+#new_product .product_right #countdown .wrapper .label {
   text-transform: capitalize;
 }
-#micro .product_right h4 {
+#new_product .product_right h4 {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 30px;
 }
-#micro .product_right h3 {
+#new_product .product_right h3 {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 50px;
@@ -635,6 +649,7 @@ nav .navbar-brand {
 #tes_monial .tes_slider .item .tes_details h4 {
   text-align: end;
   font-family: 'Mea Culpa', cursive;
+  padding-bottom: 40px;
 }
 
 #blogs {
@@ -644,10 +659,10 @@ nav .navbar-brand {
 #blogs .headline h2::after {
   left: 44%;
 }
-#blogs .blog {
+#blogs .blog .img {
   position: relative;
 }
-#blogs .blog:hover .overlay {
+#blogs .blog .img:hover .overlay {
   transition: all linear 0.4s;
   -webkit-transition: all linear 0.4s;
   -moz-transition: all linear 0.4s;
@@ -656,9 +671,9 @@ nav .navbar-brand {
   visibility: visible;
   opacity: 1;
   width: 100%;
-  height: 290px;
+  height: 100%;
 }
-#blogs .blog .overlay {
+#blogs .blog .img .overlay {
   width: 10%;
   height: 90px;
   padding: 10px;
@@ -669,19 +684,19 @@ nav .navbar-brand {
   visibility: hidden;
   opacity: 0;
 }
-#blogs .blog .overlay .top_item p {
+#blogs .blog .img .overlay .top_item p {
   margin: 0px 10px;
 }
-#blogs .blog .overlay .midle_item {
+#blogs .blog .img .overlay .midle_item {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-#blogs .blog .overlay .midle_item a {
+#blogs .blog .img .overlay .midle_item a {
   margin: 95px 0px;
   color: #ddd;
 }
-#blogs .blog .overlay .midle_item a:hover i {
+#blogs .blog .img .overlay .midle_item a:hover i {
   transition: all linear 0.4s;
   -webkit-transition: all linear 0.4s;
   -moz-transition: all linear 0.4s;
@@ -691,7 +706,7 @@ nav .navbar-brand {
   border-color: #de4644;
   color: #ddd;
 }
-#blogs .blog .overlay .midle_item a i {
+#blogs .blog .img .overlay .midle_item a i {
   width: 40px;
   height: 40px;
   border: 1px solid #ddd;
@@ -703,23 +718,23 @@ nav .navbar-brand {
   line-height: 40px;
   text-align: center;
 }
-#blogs .blog .overlay .bottom_item p {
+#blogs .blog .img .overlay .bottom_item p {
   padding-right: 8px;
 }
-#blogs .blog .overlay .bottom_item i {
+#blogs .blog .img .overlay .bottom_item i {
   padding: 3px;
 }
-#blogs .blog h4 {
+#blogs h4 {
   padding: 20px 0px;
 }
-#blogs .blog a {
+#blogs a {
   transition: all linear 0.4s;
   -webkit-transition: all linear 0.4s;
   -moz-transition: all linear 0.4s;
   -ms-transition: all linear 0.4s;
   -o-transition: all linear 0.4s;
 }
-#blogs .blog a:hover {
+#blogs a:hover {
   color: #de4644 !important;
 }
 

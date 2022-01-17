@@ -19,9 +19,14 @@ header{
                 line-height: 50px;
                 @include open_reg();
                 font-size: 13px;
-                i{
+                .fone{
                     margin-right: 4px;
-                }
+                    transform: rotate(115deg);
+                    -webkit-transform: rotate(115deg);
+                    -moz-transform: rotate(115deg);
+                    -ms-transform: rotate(115deg);
+                    -o-transform: rotate(115deg);
+}
             }
         }
     }

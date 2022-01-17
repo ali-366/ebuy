@@ -22,11 +22,10 @@
                
                 padding: 0px 20px;
                border-right: 1px solid $dark ;
-               &:hover{
-                   a{
+               &:hover{                  
                         @include trans(0.4s);
                        color: $brandcol !important;
-                   }
+                       border-color: $brandcol;        
                }
                &:last-of-type{
                    border:0;

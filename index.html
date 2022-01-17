@@ -54,7 +54,7 @@
                           </li>
                           <li class="nav-item dropdown">
                             <a class="nav-link text-capitalize p-0" href="#">
-                              Toll free =>01716 802823
+                              Toll free <span><i class="fas fa-phone fone"></i></span> 01716 802823
                             </a>
                           </li>
                     </ul>
@@ -281,17 +281,17 @@
      <div class="col-lg-12">
       <div class="fillter_menu">
         <ul class=" p-0 d-flex">
-          <li><a class="text-dark text-capitalize" href="">all</a></li>
-          <li><a class="text-dark text-capitalize" href="">women</a></li>
-          <li><a class="text-dark text-capitalize" href="">men</a></li>
-          <li><a class="text-dark text-capitalize" href="">kids</a></li>
-          <li><a class="text-dark text-capitalize" href="">Accosorrice</a></li>
+          <li class="text-dark text-capitalize cta_active" data-filter="all">all</li>
+          <li class="text-dark text-capitalize" data-filter=".womn">women</li>
+          <li class="text-dark text-capitalize" data-filter=".men">Men</li>
+          <li class="text-dark text-capitalize" data-filter=".kids">kids</li>
+          <li class="text-dark text-capitalize" data-filter=".aeso">Accosorrice</li>
         </ul>
       </div>
      </div>
-     <div class="row">
+     <div class="row fillter">
        <div class="col-lg-3">
-         <div class="featured_item">
+         <div class="featured_item mix womn">
            <img src="images/product01.png" class="img-fluid w-100" alt="img">
            <div class="f_overlay d-flex justify-content-evenly">
               <a href="#">
@@ -312,7 +312,7 @@
          </div>
        </div>
        <div class="col-lg-3">
-        <div class="featured_item">
+        <div class="featured_item mix men kids">
           <img src="images/product02.png" class="img-fluid w-100" alt="img">
           <div class="f_overlay d-flex justify-content-evenly">
              <a href="#">
@@ -335,7 +335,7 @@
         </div>
       </div>
       <div class="col-lg-3">
-        <div class="featured_item">
+        <div class="featured_item mix kids">
           <img src="images/product03.png" class="img-fluid w-100" alt="img">
           <div class="f_overlay d-flex justify-content-evenly">
              <a href="#">
@@ -357,7 +357,7 @@
         </div>
       </div>
       <div class="col-lg-3">
-        <div class="featured_item">
+        <div class="featured_item mix aeso womn men">
           <img src="images/product04.png" class="img-fluid w-100" alt="img">
           <div class="f_overlay d-flex justify-content-evenly">
              <a href="#">
@@ -388,51 +388,26 @@
  <!--  ================================
       new produts section starts
  ================================ -->  
- <section id="micro">
-   <div class="row">
-     <div class="col-lg-6">
-       <div class="product_left">
-         <img src="images/1.png" class="img-fluid w-100" alt="">
+ <section id="new_product">
+   <div class="container">
+     <div class=" row">
+      <div class="col-lg-6">
+        <div class="product_left">
+          <img src="images/1.png" class="img-fluid" alt="">
+        </div>
+      </div> 
+      <div class="col-lg-6">
+       <div class="product_right">
+         <h4 class="text-uppercase">new product</h4>
+         <h3 class="text-uppercase">microsoft surface pro</h3>
+         <p class="lead">
+           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid hic quam explicabo eaque, iusto rerum impedit aut non excepturi repellat animi. In quidem ipsam reprehenderit et, officiis dolore distinctio a minus debitis cum fuga architecto dolorem blanditiis quis dicta modi alias necessitatibus magnam? Ducimus rerum cumque sit, blanditiis veritatis itaque?
+         </p>
+         <h4 class="mb-0 text-uppercase">lunch in</h4>
+         <div id="countdown"></div>
        </div>
-     </div> 
-     <div class="col-lg-6">
-      <div class="product_right">
-        <h4 class="text-uppercase">new product</h4>
-        <h3 class="text-uppercase">microsoft surface pro</h3>
-        <p class="lead">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid hic quam explicabo eaque, iusto rerum impedit aut non excepturi repellat animi. In quidem ipsam reprehenderit et, officiis dolore distinctio a minus debitis cum fuga architecto dolorem blanditiis quis dicta modi alias necessitatibus magnam? Ducimus rerum cumque sit, blanditiis veritatis itaque?
-        </p>
-        <h4 class="mb-0 text-uppercase">lunch in</h4>
-        <div id="countdown"></div>
-        <!-- <div class="row">
-          <div class="col-lg-3">
-            <div id="countdown" class="time">
-              <h3 class="mb-0 text-capitalize">235</h3>
-              <p class="ps-0 mb-0 text-capitalize">remaing day</p>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div id="hours" class="time">
-              <h3 class="mb-0 text-capitalize">20</h3>
-              <p class="ps-0 mb-0 text-capitalize">remaing hours</p>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div id="mins" class="time">
-              <h3 class="mb-0 text-capitalize">22</h3>
-              <p class="ps-0 mb-0 text-capitalize">remaing munties</p>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div id="sec" class="time">
-              <h3 class="mb-0 text-capitalize">55</h3>
-              <p class="ps-0 mb-0 text-capitalize">remaing seconds</p>
-            </div>
-          </div>
-        </div> -->
-
-      </div>
-    </div>
+     </div>
+     </div>
    </div>
  </section>
    <!--  ================================
@@ -634,8 +609,9 @@
      <div class="row kkkkk">
        <div class="col-lg-4">
         <div class="blog">
-          <img src="images/our-blog01.png" class="img-fluid w-100" alt="images">
-          <div class="overlay">
+          <div class="img">
+            <img src="images/our-blog01.png" class="img-fluid w-100" alt="images">
+            <div class="overlay">
               <div class="top_item text-white d-flex">
                   <i class="far fa-calendar-alt"></i> 
                   <p class="text-capitalize">october 2017</p>
@@ -652,6 +628,7 @@
                   <p class="text-capitalize">1.5k comments</p>
               </div>
           </div>
+          </div>
           <h4>
             Best E-commerce I’d shopping
           </h4>
@@ -661,8 +638,9 @@
        </div>
        <div class="col-lg-4">
         <div class="blog">
-          <img src="images/our-blog02.png" class="img-fluid w-100" alt="images">
-          <div class="overlay">
+          <div class="img">
+            <img src="images/our-blog01.png" class="img-fluid w-100" alt="images">
+            <div class="overlay">
               <div class="top_item text-white d-flex">
                   <i class="far fa-calendar-alt"></i> 
                   <p class="text-capitalize">october 2017</p>
@@ -672,15 +650,16 @@
               </div>
               <div class="bottom_item text-white d-flex">
                   <i class="fas fa-user"></i>
-                  <p class="text-capitalize">by Admin</p>
+                  <p>by Admin</p>
                   <i class="far fa-thumbs-up"></i>
                   <p class="text-capitalize">by Admin</p>
                   <i class="far fa-comments"></i>
                   <p class="text-capitalize">1.5k comments</p>
               </div>
           </div>
+          </div>
           <h4>
-            I’m satisfy with their services
+            Best E-commerce I’d shopping
           </h4>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo minima odit numquam nostrum impedit vel ea voluptate consequatur, voluptatem error recusandae ipsum nihil necessitatibus veritatis sequi, beatae, nobis voluptatibus. Eum in saepe itaque mollitia delectus assumenda nemo! Nihil accusamus at fugit. Omnis, sequi eligendi quia mollitia rem perferendis nulla facilis.</p>
           <a href="#" class="btn text-dark mx-2">Read More&nbsp;<i class="fas fa-long-arrow-alt-right"></i></i></a>
@@ -688,8 +667,9 @@
        </div>
        <div class="col-lg-4">
         <div class="blog">
-          <img src="images/our-blog03.png" class="img-fluid w-100" alt="images">
-          <div class="overlay">
+          <div class="img">
+            <img src="images/our-blog02.png" class="img-fluid w-100" alt="images">
+            <div class="overlay">
               <div class="top_item text-white d-flex">
                   <i class="far fa-calendar-alt"></i> 
                   <p class="text-capitalize">october 2017</p>
@@ -699,15 +679,16 @@
               </div>
               <div class="bottom_item text-white d-flex">
                   <i class="fas fa-user"></i>
-                  <p class="text-capitalize">by Admin</p>
+                  <p>by Admin</p>
                   <i class="far fa-thumbs-up"></i>
                   <p class="text-capitalize">by Admin</p>
                   <i class="far fa-comments"></i>
                   <p class="text-capitalize">1.5k comments</p>
               </div>
           </div>
+          </div>
           <h4>
-            I’ll never forget their hospitality
+            Best E-commerce I’d shopping
           </h4>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo minima odit numquam nostrum impedit vel ea voluptate consequatur, voluptatem error recusandae ipsum nihil necessitatibus veritatis sequi, beatae, nobis voluptatibus. Eum in saepe itaque mollitia delectus assumenda nemo! Nihil accusamus at fugit. Omnis, sequi eligendi quia mollitia rem perferendis nulla facilis.</p>
           <a href="#" class="btn text-dark mx-2">Read More&nbsp;<i class="fas fa-long-arrow-alt-right"></i></i></a>
@@ -834,6 +815,7 @@
     <script src="js/jquery-2.2.4.min.js"></script>
     <script src="js/countdown.jquery.min.js"></script>
     <script src="js/slick.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/custom.js"></script>
 </body>

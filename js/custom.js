@@ -83,5 +83,12 @@ $(document).ready(function(){
         onFinish: function () {
         }  // Executes client side when timer is zero
     });
+       // Filter js
+       var mixer = mixitup('.fillter');
+
+        // gallery menu Active
+    $('.fillter_menu ul li').on('click',function(){
+      $(this).addClass('cta_active').siblings().removeClass('cta_active');
+  });
  
   });

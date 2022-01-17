@@ -62,25 +62,25 @@
     #featured .featured_item {
         margin-bottom: 15px;
     }
-    #micro {
+    #new_product {
         padding-top: 50px;
         padding-bottom: 50px;
     }
-    #micro .product_right h4 {
+    #new_product.product_right h4 {
         font-size: 25px;
         margin: 12px 0px;
         text-align: center;
     }
-    #micro .product_right h3 {
+    #new_product .product_right h3 {
         font-size: 34px;
         text-align: center;
     }
-    #micro .product_right #countdown .wrapper {
+    #new_product .product_right #countdown .wrapper {
         padding: 0px;
         width:65px !important;
     
     }
-    #micro .product_right #countdown .wrapper .time {
+    #new_product .product_right #countdown .wrapper .time {
         font-size: 30px;
     }
     #letestpro .headline h2::after, 
@@ -170,25 +170,25 @@
     #featured .featured_item {
         margin-bottom: 15px;
     }
-    #micro {
+    #new_product {
         padding-top: 50px;
         padding-bottom: 50px;
     }
-    #micro .product_right h4 {
+    #new_product .product_right h4 {
         font-size: 25px;
         margin: 12px 0px;
         text-align: center;
     }
-    #micro .product_right h3 {
+    #new_product .product_right h3 {
         font-size: 34px;
         text-align: center;
     }
-    #micro .product_right #countdown .wrapper {
+    #new_product .product_right #countdown .wrapper {
         padding: 0px;
         width:65px !important;
     
     }
-    #micro .product_right #countdown .wrapper .time {
+    #new_product .product_right #countdown .wrapper .time {
         font-size: 30px;
     }
     #letestpro .headline h2::after, 

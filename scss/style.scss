@@ -1,3 +1,6 @@
+@import '_variable.scss';
+@import '_fonts.scss';
+
 *{
     margin: 0;
     padding: 0;
@@ -11,6 +14,10 @@ a{
 }
 img{
     vertical-align: middle;
+}
+.cta_active{
+    color: $brandcol !important;
+    border-color: $brandcol;    
 }
 /*
   common css ends
