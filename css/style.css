@@ -66,6 +66,35 @@ header .header_right ul li:last-child {
 /* ================================
         header section starts
  ================================ */
+.nav_active {
+  color: #de4644 !important;
+}
+.nav_active nav ul li a::after {
+  width: 30px;
+}
+.nav_active nav ul li a::before {
+  width: 60px;
+}
+
+.nav-fix {
+  position: fixed;
+  top: 0;
+  left: 0px;
+  background: #ddd;
+  width: 100%;
+  z-index: 999;
+  animation: slow_mo 1s linear;
+  -webkit-animation: slow_mo 1s linear;
+}
+
+@keyframes slow_mo {
+  0% {
+    top: -90px;
+  }
+  100% {
+    top: 0px;
+  }
+}
 nav ul li {
   padding-left: 20px !important;
   position: relative;
@@ -864,3 +893,39 @@ footer .footer_item .icon a i:last-of-type {
 #copyright .copy p a:hover {
   color: #ddd;
 }
+
+/* back to top btn starts*/
+.back_to_top {
+  width: 40px;
+  height: 40px;
+  background: #de4644;
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+  z-index: 999;
+  display: none;
+  cursor: pointer;
+  transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+}
+.back_to_top:hover {
+  background: #972121;
+}
+.back_to_top:hover i {
+  transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+  font-size: 23px;
+}
+.back_to_top i {
+  color: #ddd;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+/* back to top btn ends*/

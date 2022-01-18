@@ -1,8 +1,41 @@
 @import '_variable.scss';
 @import '_fonts.scss';
 
-
-
+.nav_active{
+    color: $brandcol !important;
+   nav{
+       ul{
+           li{
+               a{
+                &::after{
+                    width: 30px;
+                }
+                &::before{
+                    width: 60px;
+                }
+               }
+           }
+       }
+   }
+}
+.nav-fix{
+   position: fixed;
+   top: 0;
+   left: 0px;
+   background: $light;
+   width: 100%;
+   z-index: 999;
+   animation:slow_mo 1s linear;
+   -webkit-animation:slow_mo 1s linear;
+}
+@keyframes slow_mo{ 
+        0%{
+            top:-90px;
+        }
+        100%{
+            top:0px; 
+        }
+}
 
 nav{
     ul{
