@@ -1,14 +1,7 @@
 
 
 $(document).ready(function(){
-    
-  
 
-
-    // scroll fucntion
-   
-
-    
     // js for banner
     $('.hero-slider').slick({
         autoplay:true,
@@ -119,11 +112,17 @@ $(document).ready(function(){
               scrollTop:'0px', 
           },1500);
       });
-  
-    //  nav active class
-      $('nav ul li').on('click',function(){
-        $(this).addClass('active').siblings().removeClass('active');
-      });
 
-
+      
+ 
   });
+ //  nav active class
+      $('nav ul .nav-item a').on('click',function(){
+        console.log('hello');
+        $(this).addClass('active1').siblings().removeClass('active1');
+      });
+ // funfact / counterUp js
+      $('.counter').counterUp({
+        delay: 10,
+        time: 1000
+    });

@@ -1,23 +1,7 @@
 @import '_variable.scss';
 @import '_fonts.scss';
 
-.active{
-    color: $brandcol !important;
-   nav{
-       ul{
-           li{
-               a{
-                &::after{
-                    width: 30px;
-                }
-                &::before{
-                    width: 60px;
-                }
-               }
-           }
-       }
-   }
-}
+
 .nav-fix{
    position: fixed;
    top: 0;
@@ -81,6 +65,7 @@ nav{
                 }
             }
         }
+        
     }
     .cta_btn{
         color: $brandcol;
