@@ -112,12 +112,6 @@ $(document).ready(function(){
         }
     });
 
-    // bac to top js
-    $('.back-to-top').on('click',function(){
-        $('html,body').animate({
-            scrollTop:'0px', 
-        },1500);
-    });
 
         // bac to top js
         $('.back_to_top').on('click',function(){
@@ -126,9 +120,9 @@ $(document).ready(function(){
           },1500);
       });
   
-    //  acive nav active class
+    //  nav active class
       $('nav ul li').on('click',function(){
-        $(this).addClass('nav_active').siblings().removeClass('nav_active');
+        $(this).addClass('active').siblings().removeClass('active');
       });
 
 
