@@ -1,0 +1,50 @@
+@import '_variable.scss';
+@import '_fonts.scss';
+
+/* contact css starts*/ 
+
+
+#contact_form{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    form{
+        position: relative;
+        button{
+            width: 100px;
+            height: 100px;
+            background: $brandcol;
+            position: absolute;
+            bottom: 16px;
+            right: 0;
+            z-index: 99;
+            text-align: end;
+            clip-path: polygon(100% 1%, 0% 100%, 100% 100%);
+            i{
+                line-height: 100px;
+                color: $light;
+                font-size: 25px;
+                position: absolute;
+                bottom: 0-13px;
+                right: 16px;
+            }
+        }
+        textarea{
+            height: 150px;
+        }
+    }
+    .footer_item {
+        ul{
+            li{
+                display: flex;
+                i{
+                    color: $brandcol;
+                }
+                a{
+                   p{
+                   padding-left: 20px;
+                   }
+                }
+            }
+        }
+    }
+}
