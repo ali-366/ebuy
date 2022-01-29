@@ -21,7 +21,7 @@ img {
   border-color: #de4644;
 }
 
-.active1 {
+.active {
   color: #de4644 !important;
 }
 
@@ -1134,4 +1134,100 @@ footer .footer_item .icon a i:last-of-type {
 }
 #contact_form .footer_item ul li a p {
   padding-left: 20px;
+}
+
+#cin_product {
+  padding-top: 40px;
+}
+#cin_product .details .cin_page_headline {
+  flex-direction: column;
+}
+#cin_product .details .cin_page_headline .icon i {
+  color: #de4644;
+}
+#cin_product .details .cin_page_headline .icon p {
+  display: inline;
+}
+#cin_product .details .select_opt .form-select {
+  width: 30%;
+}
+#cin_product .details .social_icon .icon a {
+  color: #222222;
+}
+#cin_product .details .social_icon .icon a i {
+  font-size: 22px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #222222;
+  line-height: 50px;
+  text-align: center;
+  transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+}
+#cin_product .details .social_icon .icon a i:hover {
+  color: #de4644;
+  border-color: #de4644;
+}
+#cin_product .details .social_icon .overlay {
+  padding: 20px 0px;
+  width: 40%;
+}
+#cin_product .details .social_icon .overlay a {
+  color: #222222;
+}
+#cin_product .details .social_icon .overlay a i {
+  font-size: 22px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #222222;
+  line-height: 50px;
+  text-align: center;
+  transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+}
+#cin_product .details .social_icon .overlay a i:hover {
+  color: #de4644;
+  border-color: #de4644;
+}
+#cin_product .details .quantity .form_check {
+  position: relative;
+  width: 60px;
+  border: 1px solid #222222;
+}
+#cin_product .details .quantity .form_check input {
+  width: 40px;
+  height: 40px;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+#cin_product .details .quantity .form_check button {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  border-left: 1px solid #222222;
+  line-height: 20px;
+  right: 0;
+  transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+}
+#cin_product .details .quantity .form_check button:first-of-type {
+  top: 0px;
+}
+#cin_product .details .quantity .form_check button:last-of-type {
+  top: 20px;
+}
+#cin_product .details .quantity .form_check button:hover {
+  border: 1px solid #de4644;
+  background: #de4644;
+  color: #ddd;
 }

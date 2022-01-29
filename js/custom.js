@@ -2,82 +2,90 @@
 
 $(document).ready(function(){
 
-    // js for banner
-    $('.hero-slider').slick({
-        autoplay:true,
-        arrows: true,
-        prevArrow:'<i class="fas fa-chevron-left arrow_left"></i>',
-        nextArrow:'<i class="fas fa-chevron-right arrow_right"></i>',
-    });
+        // js for banner
+        $('.hero-slider').slick({
+            autoplay:true,
+            arrows: true,
+            prevArrow:'<i class="fas fa-chevron-left arrow_left"></i>',
+            nextArrow:'<i class="fas fa-chevron-right arrow_right"></i>',
+        });
 
-    //  js for letest-pro
-    $('.letest-pro').slick({
-        autoplay:true,
-        arrows: true,
-        slidesToShow:4,
-        prevArrow:'<i class="fas fa-chevron-left arrow_left"></i>',
-        nextArrow:'<i class="fas fa-chevron-right arrow_right"></i>',
-        responsive: [
-            {
-              breakpoint: 576,
-              settings: {
-                slidesToShow:1,
-                arrows:true,
+        //  js for letest-pro
+        $('.letest-pro').slick({
+            autoplay:true,
+            arrows: true,
+            slidesToShow:4,
+            prevArrow:'<i class="fas fa-chevron-left arrow_left"></i>',
+            nextArrow:'<i class="fas fa-chevron-right arrow_right"></i>',
+            responsive: [
+                {
+                  breakpoint: 576,
+                  settings: {
+                    slidesToShow:1,
+                    arrows:true,
 
-              }
-            },
-            {
-              breakpoint: 768,
-              settings: {
-                arrows: true,
-                centerMode: true,
-                centerPadding: '40px',
-                slidesToShow: 3,
-              }
-            }
-          ]
-    });
+                  }
+                },
+                {
+                  breakpoint: 768,
+                  settings: {
+                    arrows: true,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 3,
+                  }
+                }
+              ]
+        });
+    
+        
+        //  js for letest-pro
+        $('.tes_slider').slick({
+            autoplay:true,
+            arrows: true,
+            slidesToShow:2,
+            prevArrow:'<i class="fas fa-chevron-left arrow_left"></i>',
+            nextArrow:'<i class="fas fa-chevron-right arrow_right"></i>',
+            responsive: [
+                {
+                  breakpoint: 576,
+                  settings: {
+                    slidesToShow:1,
+                    arrows:true,
+
+                  }
+                },
+                {
+                  breakpoint: 768,
+                  settings: {
+                    arrows: true,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 3,
+                  }
+                }
+              ]
+        });
+        
+          
+            // gallery menu Active
+        $('.fillter_menu ul li').on('click',function(){
+          $(this).addClass('cta_active').siblings().removeClass('cta_active');
+      });
+
+
+        
+        // funfact / counterUp js
+        $('.counter').counterUp({
+          delay: 10,
+          time: 1000
+      });  
+      $('input[type="number"]').niceNumber(); 
  
-    
-     //  js for letest-pro
-     $('.tes_slider').slick({
-        autoplay:true,
-        arrows: true,
-        slidesToShow:2,
-        prevArrow:'<i class="fas fa-chevron-left arrow_left"></i>',
-        nextArrow:'<i class="fas fa-chevron-right arrow_right"></i>',
-        responsive: [
-            {
-              breakpoint: 576,
-              settings: {
-                slidesToShow:1,
-                arrows:true,
-
-              }
-            },
-            {
-              breakpoint: 768,
-              settings: {
-                arrows: true,
-                centerMode: true,
-                centerPadding: '40px',
-                slidesToShow: 3,
-              }
-            }
-          ]
-    });
-    
-       
-        // gallery menu Active
-    $('.fillter_menu ul li').on('click',function(){
-      $(this).addClass('cta_active').siblings().removeClass('cta_active');
   });
+// doucoment .ready ready fucntion ends
 
 
-    
-      
- 
-  });
      // partner js
      $('.partner_item').slick({
       // autoplay:true,
@@ -145,22 +153,10 @@ $(document).ready(function(){
         },1500);
     });
 
-
-    //  nav active class
-    $('nav ul .nav-item a').on('click',function(){
-      $(this).addClass('active1').siblings().removeClass('active1');
-    });   
-
-
-
-    // Filter js
+// Filter js
     var mixer = mixitup('.fillter');
 
- // funfact / counterUp js
-      $('.counter').counterUp({
-        delay: 10,
-        time: 1000
-    });
+
     $('#countdown').countdown({
       year: 2022,   // YYYY Format
       month: 5,     // 1-12
@@ -172,4 +168,5 @@ $(document).ready(function(){
       labels: true, // Show/Hide label elements
       onFinish: function () {
       }  // Executes client side when timer is zero
-  });
+  }); 
+   

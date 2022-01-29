@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-buy</title>
+
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--google fonts link -->
+    <link href="https://fonts.googleapis.com/css2?family=Mea+Culpa&family=Open+Sans:wght@300;400;500;600;700&family=Raleway:wght@300;500;600;700;800&display=swap" rel="stylesheet"> 
+    <!-- fontawesome link -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- style.css link -->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/jquery.nice-number.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- responsive.css link -->
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- ================================
+        header section starts
+ ================================ -->
+
+  <!-- header top starst==============  -->
+  <header>
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="header_left">
+                    <ul class="ps-0 mb-0 d-flex ">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-capitalize p-0" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              eng
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-uppercase p-0" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              usd <span>&dollar;</span>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link text-capitalize p-0" href="#">
+                              Toll free <span><i class="fas fa-phone fone"></i></span> 01716 802823
+                            </a>
+                          </li>
+                    </ul>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12 ms-lg-auto">
+                <div class="header_right ">
+                    <ul class="ps-0 mb-0  d-flex justify-content-end">
+                       <li>
+                          <a href="#" class="text-capitalize p-0">
+                            <i class="fas fa-heart"></i>
+                            wishlist
+                          </a>
+                       </li>
+                       <li>
+                        <a href="#" class="text-capitalize p-0">
+                          <i class="fas fa-user"></i>
+                          my Accout
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#" class="text-capitalize p-0">
+                         &nbsp; login <span>/</span> register 
+                        </a>
+                     </li>     
+                    </ul>
+                </div>
+            </div>
+          </div>
+      </div>
+  </header>
+  <!-- header top end=================  -->
+       
+  <!-- nav starst==============  -->
+  <nav class="navbar navbar-expand-lg navbar-light p-0">
+    <div class="container">
+      <a class="navbar-brand p-0" href="#">
+        <img src="images/logo1.png" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto">
+          <li class="nav-item">
+            <a class="nav-link p-md-0" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-capitalize p-md-0" href="men.html">Men</a>
+          </li><li class="nav-item">
+            <a class="nav-link text-capitalize p-md-0" href="women.html">women</a>
+          </li><li class="nav-item">
+            <a class="nav-link text-capitalize p-md-0" href="asossorices.html">Accosorrices</a>
+          </li><li class="nav-item">
+            <a class="nav-link active  text-capitalize p-md-0" href="contact.html">Contact</a>
+          </li>
+        </li><li class="nav-item">
+          <a class="nav-link text-capitalize p-md-0" href="about.html">About Us</a>
+        </li>
+        </ul>
+        <form class="d-flex ">
+          <input class="form-control d-none" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn" type="submit">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+        <a href="#" class=" cta_btn text-capitalize"><i class="fas fa-shopping-bag"></i> <span>2 </span>Items</a>
+      </div>
+    </div>
+  </nav>
+  <!-- nav ends=================  -->
+
+
+ <!--  ================================
+        bred crum section starts
+ ================================ -->
+ <section id="bred_crum">
+   <div class="container">
+     <div class="col-lg-12">
+       <div class="headline text-center">
+        <h4 class="mb-0 text-uppercase open_reg">products</h4>
+        <h5 class="mb-0 text-capitalize open_reg">home <span><i class="fas fa-angle-double-right"></i></span>products details</details></h5>
+       </div>
+     </div>
+   </div>
+ </section>
+  <!--  ================================
+        bred crum section ends
+ ================================ -->
+   <!--  ================================
+        single products section ends
+ ================================ -->  
+ <section id="cin_product">
+   <div class="container">
+     <div class="row">
+       <div class="col-lg-6">
+         <div class="img-slider">
+           <img src="images/letest-pro.png" class="img-fluid w-100" alt="images">
+         </div>
+       </div>
+       <div class="col-lg-6">
+        <div class="details">
+          <div class="cin_page_headline d-flex justify-content-center ">
+            <h4 class="mb-0 text-uppercase">Purple color lady’s skirt with laice</h4>
+         <div class="icon d-inline-block">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <p class="" >| 124 (Reviews) </p>
+        </div> 
+          
+          <h5 class="">$99.99</h5>
+          <p class="lead p-0 text-capitalize">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi sint ut obcaecati quas odit. Laboriosam corporis expesse tempore alias expedita illum. Accusamus, ratione? Ipsa esse iusto reprehenderit corrupti nostrum.</p>
+          </div>
+          <div class="select_opt">
+            <p class="lead mb-0 text-capitalize">Size :</p> 
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+            <label class="form-check-label" for="exampleRadios1">
+              Small Size
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+              M Size
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+              L Size
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+              XXL Size
+            </label>
+          </div>
+          <p class="lead mb-0 text-capitalize">color :</p> 
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Select Color</option>
+            <option style="background: red;" value="1">One</option>
+            <option style="background: white;" value="2">Two</option>
+            <option style="background: blue;" value="3">Three</option>
+          </select>
+          </div>
+          <div class="quantity py-2 ">
+              <h5 class="text-capitalize d-inline-block">quantity:</h5>
+              <div class="form_check d-inline-block">
+                <input type="number" value="1">
+              </div>
+            </div>
+          <div class="social_icon">
+            <div class="overlay d-flex justify-content-between">
+              <a href="#">
+                <i class="fas fa-heart"></i>
+              </a> <a href="#">
+                <i class="fas fa-random"></i>
+              </a> <a href="#">
+                <i class="fas fa-shopping-bag"></i>
+              </a>
+           </div> 
+           <h6>Code : <span>SKHT-35466DS</span></h6>
+           <h6>catagories : <span>Fashion</span></h6>
+           <h6>Tag: <span>T-Shart, official dress, formal dress.</span></h6>
+           <h4 class="text-uppercase my-3">Share on</h4>
+           <div class="icon text-dark">
+             <a href="#"><i class="fab fa-facebook-f"></i></a>
+             <a href="#"><i class="fab fa-twitter"></i></a>
+             <a href="#"><i class="fab fa-pinterest-p"></i></a>
+             <a href="#"><i class="fab fa-linkedin-in"></i></a>
+             <a href="#"><i class="fab fa-behance"></i></a>
+           </div>
+          </div>   
+        </div>
+      </div>
+     </div>
+    <div class="reveiw">
+      <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Products description</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Reviews</button>
+        </li>
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio eum quibusdam suscipit sit maiores veniam beatae numquam quia? Accusamus aliquid impedit inventore molestiae iure tenetur fugit magnam, quibusdam hic ducimus beatae quaerat porro similique obcaecati. Dolore error atque ab dolorem? Nesciunt ea expedita distinctio consequuntur! Sunt quam consectetur voluptas unde accusantium commodi at corporis eius numquam minus! Ullam iure aliquid numquam aperiam unde et quam cum, exercitationem inventore dignissimos minima voluptates ipsam magnam nisi. Maxime numquam laboriosam nesciunt ab maiores amet sit excepturi sint soluta, odio vitae temporibus ex, obcaecati asperiores eveniet ea laborum blanditiis iusto repellendus iste unde minus.</div>
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio eum quibusdam suscipit sit maiores veniam beatae numquam quia? Accusamus aliquid impedit inventore molestiae iure tenetur fugit magnam, quibusdam hic ducimus beatae quaerat porro similique obcaecati. Dolore error atque ab dolorem? Nesciunt ea expedita distinctio consequuntur! Sunt quam consectetur voluptas unde accusantium commodi at corporis eius numquam minus! Ullam iure aliquid numquam aperiam unde et quam cum, exercitationem inventore dignissimos minima voluptates ipsam magnam nisi. Maxime numquam laboriosam nesciunt ab maiores amet sit excepturi sint soluta, odio vitae temporibus ex, obcaecati asperiores eveniet ea laborum blanditiis iusto repellendus iste unde minus.</div>
+  
+      </div>
+    </div>
+    
+   </div>
+ </section>
+ <!--  ================================
+        single products section ends
+ ================================ -->
+     <!--  ================================
+      featured section starts
+ ================================ -->
+ <section id="featured">
+  <div class="container">
+   <div class="headline my-3">
+     <h2 class="mb-0 text-center text-capitalize">Releted products</h2>
+   </div>
+    <div class="row fillter">
+      <div class="col-lg-3">
+        <div class="featured_item ">
+          <img src="images/product01.png" class="img-fluid w-100" alt="img">
+          <div class="f_overlay d-flex justify-content-evenly">
+             <a href="#">
+               <i class="fas fa-heart text-white"></i>
+             </a> <a href="#">
+               <i class="fas fa-random text-white"></i>
+             </a> <a href="#">
+               <i class="fas fa-shopping-bag text-white"></i>
+             </a>
+          </div> 
+          <h6 class="mb-0 text-capitalize"><span class="pr-5">woolen T-shart</span>$66.00 </h6>
+        <div class="icon ">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        </div>
+        
+      </div>
+      <div class="col-lg-3">
+       <div class="featured_item ">
+         <img src="images/product02.png" class="img-fluid w-100" alt="img">
+         <div class="f_overlay d-flex justify-content-evenly">
+            <a href="#">
+              <i class="fas fa-heart text-white"></i>
+            </a> <a href="#">
+              <i class="fas fa-random text-white"></i>
+            </a> <a href="#">
+              <i class="fas fa-shopping-bag text-white"></i>
+            </a>
+         </div>
+         <h6 class="mb-0 text-capitalize"><span class="pr-5">woolen T-shart</span>$66.00 </h6>
+         <div class="icon ">
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+         </div>
+         </div>
+         
+       </div>
+     <div class="col-lg-3">
+       <div class="featured_item ">
+         <img src="images/product03.png" class="img-fluid w-100" alt="img">
+         <div class="f_overlay d-flex justify-content-evenly">
+            <a href="#">
+              <i class="fas fa-heart text-white"></i>
+            </a> <a href="#">
+              <i class="fas fa-random text-white"></i>
+            </a> <a href="#">
+              <i class="fas fa-shopping-bag text-white"></i>
+            </a>
+         </div>  
+         <h6 class="mb-0 text-capitalize"><span class="pr-5">woolen T-shart</span>$66.00 </h6>
+         <div class="icon ">
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star-half"></i>
+         </div>
+       </div>
+       
+     </div>
+     <div class="col-lg-3">
+       <div class="featured_item">
+         <img src="images/product04.png" class="img-fluid w-100" alt="img">
+         <div class="f_overlay d-flex justify-content-evenly">
+            <a href="#">
+              <i class="fas fa-heart text-white"></i>
+            </a> <a href="#">
+              <i class="fas fa-random text-white"></i>
+            </a> <a href="#">
+              <i class="fas fa-shopping-bag text-white"></i>
+            </a>
+         </div>
+         <h6 class="mb-0 text-capitalize"><span class="pr-5">woolen T-shart</span>$66.00 </h6>
+         <div class="icon ">
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star-half"></i>
+         </div>
+       </div>
+      
+     </div>
+    </div>
+    <div class="row fillter">
+      <div class="col-lg-3">
+        <div class="featured_item ">
+          <img src="images/product01.png" class="img-fluid w-100" alt="img">
+          <div class="f_overlay d-flex justify-content-evenly">
+             <a href="#">
+               <i class="fas fa-heart text-white"></i>
+             </a> <a href="#">
+               <i class="fas fa-random text-white"></i>
+             </a> <a href="#">
+               <i class="fas fa-shopping-bag text-white"></i>
+             </a>
+          </div> 
+          <h6 class="mb-0 text-capitalize"><span class="pr-5">woolen T-shart</span>$66.00 </h6>
+        <div class="icon ">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        </div>
+        
+      </div>
+      <div class="col-lg-3">
+       <div class="featured_item ">
+         <img src="images/product02.png" class="img-fluid w-100" alt="img">
+         <div class="f_overlay d-flex justify-content-evenly">
+            <a href="#">
+              <i class="fas fa-heart text-white"></i>
+            </a> <a href="#">
+              <i class="fas fa-random text-white"></i>
+            </a> <a href="#">
+              <i class="fas fa-shopping-bag text-white"></i>
+            </a>
+         </div>
+         <h6 class="mb-0 text-capitalize"><span class="pr-5">woolen T-shart</span>$66.00 </h6>
+         <div class="icon ">
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+         </div>
+         </div>
+         
+       </div>
+     <div class="col-lg-3">
+       <div class="featured_item ">
+         <img src="images/product03.png" class="img-fluid w-100" alt="img">
+         <div class="f_overlay d-flex justify-content-evenly">
+            <a href="#">
+              <i class="fas fa-heart text-white"></i>
+            </a> <a href="#">
+              <i class="fas fa-random text-white"></i>
+            </a> <a href="#">
+              <i class="fas fa-shopping-bag text-white"></i>
+            </a>
+         </div>  
+         <h6 class="mb-0 text-capitalize"><span class="pr-5">woolen T-shart</span>$66.00 </h6>
+         <div class="icon ">
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star-half"></i>
+         </div>
+       </div>
+       
+     </div>
+     <div class="col-lg-3">
+       <div class="featured_item">
+         <img src="images/product04.png" class="img-fluid w-100" alt="img">
+         <div class="f_overlay d-flex justify-content-evenly">
+            <a href="#">
+              <i class="fas fa-heart text-white"></i>
+            </a> <a href="#">
+              <i class="fas fa-random text-white"></i>
+            </a> <a href="#">
+              <i class="fas fa-shopping-bag text-white"></i>
+            </a>
+         </div>
+         <h6 class="mb-0 text-capitalize"><span class="pr-5">woolen T-shart</span>$66.00 </h6>
+         <div class="icon ">
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star-half"></i>
+         </div>
+       </div>
+      
+     </div>
+    </div>
+  </div>
+</section>
+   <!--  ================================
+     featured section ends
+================================ -->  
+
+    <!-- our partner sec ends -->
+      <section id="partner">
+                <div class="container">
+                  <div class="col-lg-12">
+                    <div class="partner_item">
+                      <div class="partner_img">
+                        <img src="images/sm-sl-1.jpg" class="img-fluid w-100" alt="images">
+                      </div>
+                      <div class="partner_img">
+                        <img src="images/sm-sl-2.jpg" class="img-fluid w-100" alt="images">
+                      </div>
+                      <div class="partner_img"> 
+                        <img src="images/sm-sl-3.jpg" class="img-fluid w-100" alt="images">
+                      </div>
+                      <div class="partner_img">
+                        <img src="images/sm-sl-4.jpg" class="img-fluid w-100" alt="images">
+                      </div>
+                      <div class="partner_img">
+                        <img src="images/sm-sl-2.jpg" class="img-fluid w-100" alt="images">
+                      </div>
+                      <div class="partner_img">
+                        <img src="images/sm-sl-5.jpg" class="img-fluid w-100" alt="images">
+                      </div>
+                      <div class="partner_img">
+                        <img src="images/sm-sl-2.jpg" class="img-fluid w-100" alt="images">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+      </section>
+    <!-- our partner sec ends -->           
+     <!--  ================================
+      footer section starts
+ ================================ --> 
+ <footer>
+   <div class="container">
+     <div class="row">
+       <div class="col-lg-3">
+         <div class="footer_item text-white">
+          <img src="images/footerLogo1.png" class="img-fluid " alt="logo">
+          <ul class="ps-0">
+            <li>
+              <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quae, tempora est, nostrum exercitationem qui error mollitia aspernatur, laudantium unde maiores  eveniet accusantium a!</p>
+            </li>
+            <li>
+             <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quae, tempora est, nostrum </p>
+           </li>
+          </ul>
+         </div>
+       </div>
+       <div class="col-lg-3">
+        <div class="footer_item text-white">
+          <h3 class="text-uppercase mb-4">contact us</h3>
+          <ul class="ps-0">
+            <li class="mb-0">
+              <i class="fas fa-map-marker-alt"></i>
+             <a href="https://goo.gl/maps/cUrcu1DVGthbrniY7"> <p>1234, Parkstreet Avenue, NewYork </p></a>
+            </li>
+            <li class="mb-0">
+              <i class="fas fa-phone"></i>
+              <a href="tel:+12342334467778"><p>+1234 23344 67778 </p></a>
+            </li>
+            <li class="mb-0">
+              <i class="fas fa-envelope"></i>
+              <a href="mailto:example@gmail.com" ><p>example@gmail.com</p></a>
+            </li>
+          </ul>
+         </div>
+       </div>
+       <div class="col-lg-2">
+        <div class="footer_item text-white">
+          <h3 class="text-uppercase mb-4">my account</h3>
+          <ul class="ps-0">
+            <li class="py-2">
+              <a href="#" class="text-white text-capitalize">my account</a>
+            </li>
+            <li class="py-2">
+              <a href="#" class="text-white text-capitalize">wishlist</a>
+            </li>
+            <li class="py-2">
+             <a href="#" class="text-white text-capitalize">compaire</a>
+            </li>
+            <li class="py-2">
+              <a href="#" class="text-white text-capitalize">shopping cart</a>
+             </li>
+             <li class="py-2">
+              <a href="#" class="text-white text-capitalize">cheeckout</a>
+             </li>
+          </ul>
+         </div>
+       </div>
+       <div class="col-lg-4">
+        <div class="footer_item text-white">
+          <h3 class="text-uppercase mb-4">singup for newsletter</h3>
+          <form action="">
+            <input type="email" placeholder=" Your email" class="round-0">
+            <button type="submit" class="btn btn-outline text-uppercase">submit</button>
+          </form>
+          <h4 class="text-uppercase my-3">follow us on</h4>
+          <div class="icon text-dark">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-behance"></i></a>
+          </div>
+         </div>
+       </div>
+     </div>
+    
+   </div>
+ </footer>
+ <section id="copyright">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="copy">
+         <p>Copyright &copy; 2018. All right reserved by <a href="#">E-BUY</a></p>
+        </div>
+      </div>
+      <div class="col-lg-3 ms-auto">
+      <div class="card ">
+        <a href="#"><img src="images/vissa.png" class="img-fluid w-100 mb-0" alt="img">
+        </a>
+      </div>
+     </div>
+    </div>
+  </div>
+ </section>
+     <!--  ================================
+      footer section ends
+ ================================ --> 
+ <!-- back to top btn starts -->
+ <div class="back_to_top text-center">
+  <i class="fas fa-angle-double-up"></i>
+ </div>
+ <!-- back to top btn ends -->
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/jquery.nice-number.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>

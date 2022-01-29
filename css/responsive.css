@@ -106,6 +106,15 @@
     footer .footer_item .icon a {
         margin-right: 6px;
     }
+    /* about page responsive css starts */
+    #ab_main .ab_text {
+        padding: 10px;
+        background: #222;
+        position: unset;
+        width: 100%;
+        height: auto;
+    }
+    /* about page responsive css ends */
 
 }
 /* Ex-small divice  */
